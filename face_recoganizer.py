@@ -11,7 +11,7 @@ harr_cascade=cv.CascadeClassifier("E:/Face_Recogonizer/haar.xml")
 face_rec=cv.face.LBPHFaceRecognizer_create()
 face_rec.read("E:/Face_Recogonizer/face_trained.yml")
 
-img=cv.imread("E:/Face_Recogonizer/te.jpeg")
+img=cv.imread("E:/Face_Recogonizer/unknown.jpg")
 
 gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
